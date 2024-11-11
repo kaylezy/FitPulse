@@ -7,8 +7,9 @@ import rocket from '../../assets/rocket.png'
 
 const Docs = () => {
   return (
-    <Flex wrap='wrap' direction={["column", 'row', 'row']} bg='white' padding='20px' paddingTop='40px' h='auto' w='auto' justify='center' align='center' gap='20px'>  
-        <Stack spaceY='2' padding='20px' h='300px' bg='white' w='300px' marginLeft='auto' marginRight='auto'>
+    <Flex wrap='wrap' direction={["column", 'row', 'row']} bg='gray.500' padding='20px' paddingTop='40px' h='auto' w='auto' justify='center' align='center' gap='20px' borderRadius="20px"
+    boxShadow="lg">  
+        <Stack spaceY='2' padding='20px' h='300px' bg='white' w='300px' marginLeft='auto' marginRight='auto' borderRadius='20px'>
           <Heading fontSize='2xl'>Recommendation</Heading>
           <Flex gap='20px'>
             <Image 
@@ -27,7 +28,7 @@ const Docs = () => {
               <Heading>What is Antibiotics resistance?</Heading>
           </Flex>
         </Stack>
-        <Stack spaceY='2' padding='20px' h='300px' bg='white' w='300px' marginLeft='auto' marginRight='auto'>
+        <Stack spaceY='2' padding='20px' h='300px' bg='white' w='300px' marginLeft='auto' marginRight='auto' borderRadius='20px'>
           <Heading fontSize='2xl'>Treatment</Heading>
           <Flex gap='20px' >
             <Image 

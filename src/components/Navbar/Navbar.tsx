@@ -5,7 +5,7 @@ import fitpulse from "../../assets/fitpulse.jpg";
 const Nav = () => {
   return (
     <Flex
-      bg="white"
+      bg="gray.500"
       padding="7"
       w="auto"
       h="70px"
@@ -14,7 +14,7 @@ const Nav = () => {
     >
       <Flex height="40px" w="50px" alignItems="center" gap="2">
         <Image src={fitpulse} alt="" />
-        <Text fontSize="lg" color="blue.500" fontWeight="bold">
+        <Text fontSize="lg" color="blue.900" fontWeight="bold">
           FitPulse
         </Text>
       </Flex>
