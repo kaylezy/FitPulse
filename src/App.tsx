@@ -6,7 +6,7 @@ import { Flex } from "@chakra-ui/react"
 function App() {
 
   return (
-    <Flex direction='column' gap='10px'>
+    <Flex direction='column' gap='10px' bg='white' color='black'>
       <Nav />
       <Flex direction={["column", "column", "column"]}>
         <Content />
