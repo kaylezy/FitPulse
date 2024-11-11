@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e1e3fa;
+    color: black;
+}
